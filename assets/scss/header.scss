@@ -2,6 +2,7 @@
     font-family: "Grandstander-VariableFont_wght";
     src: url(../fonts/Grandstander-VariableFont_wght.ttf);
 }
+$fontHeader: "Grandstander-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
 $mainColor: white;
 $neonColor: #00FFDB;
 $neonShadowColor: rgba(0, 255, 219, .7);
@@ -13,8 +14,8 @@ header {
     h1 {
         color: $mainColor;
         margin: 0 auto;
-        font-family: "Grandstander-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 2.25rem;
+        font-family: $fontHeader;
+        font-size: 4rem;
         position: relative;
         z-index: 100;
     }
@@ -26,6 +27,7 @@ header {
             a {
                 text-decoration: none;
                 color: $mainColor;
+                font-family: $fontHeader;
                 padding: 3rem 4rem;
             }
         }
@@ -33,7 +35,6 @@ header {
     .neon {
         animation: neonAnim 1.5s alternate-reverse infinite;
         color: $neonColor;
-        font-family: Cursive;
         font-size: 36px;
     }
     @keyframes neonAnim {

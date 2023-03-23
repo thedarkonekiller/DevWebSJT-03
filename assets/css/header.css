@@ -11,7 +11,7 @@ header h1 {
   color: white;
   margin: 0 auto;
   font-family: "Grandstander-VariableFont_wght", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2.25rem;
+  font-size: 4rem;
   position: relative;
   z-index: 100;
 }
@@ -25,12 +25,12 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: white;
+  font-family: "Grandstander-VariableFont_wght", Verdana, Geneva, Tahoma, sans-serif;
   padding: 3rem 4rem;
 }
 header .neon {
   animation: neonAnim 1.5s alternate-reverse infinite;
   color: #00FFDB;
-  font-family: Cursive;
   font-size: 36px;
 }
 @keyframes neonAnim {
