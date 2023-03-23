@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Grandstander-VariableFont_wght";
+    src: url(../fonts/Grandstander-VariableFont_wght.ttf);
+}
+$mainColor: white;
+$neonColor: #00FFDB;
+$neonShadowColor: rgba(0, 255, 219, .7);
+
+header {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: $mainColor;
+        margin: 0 auto;
+        font-family: "Grandstander-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.25rem;
+        position: relative;
+        z-index: 100;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            display: flex;
+            a {
+                text-decoration: none;
+                color: $mainColor;
+                padding: 3rem 4rem;
+            }
+        }
+    }
+    .neon {
+        animation: neonAnim 1.5s alternate-reverse infinite;
+        color: $neonColor;
+        font-family: Cursive;
+        font-size: 36px;
+    }
+    @keyframes neonAnim {
+        from {
+            text-shadow:
+              0 0 17px $neonShadowColor,
+              0 0 47px $neonShadowColor,
+              0 0 107px $neonShadowColor;
+          }
+          to {
+            text-shadow:
+              0 0 12px $neonShadowColor,
+              0 0 27px $neonShadowColor,
+              0 0 67px $neonShadowColor;
+          }
+    }
+    
+.rgb::after {
+    content:"";
+    background: linear-gradient(45deg,
+    #ff0000 0%, 
+    #ff9a00 10%,
+    #d0de21 20%,
+    #4fdc4a 30%, 
+    #3fdad8 40%,
+    #2fc9e2 50%, 
+    #1c7fee 60%, 
+    #5f15f2 70%, 
+    #ba0cf8 80%, 
+    #fb07d9 90%, 
+    #ff0000 100%  )
+    repeat 0% 0% / 300% 100%;
+    position: absolute;
+    z-index: -1;
+    inset: -3px;
+    border-radius: 16px;
+    filter: blur(8px);
+    transform: translateZ(-1px); /*or z-index */
+    animation: rgb 6s linear infinite;
+  }
+  @keyframes rgb {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+}

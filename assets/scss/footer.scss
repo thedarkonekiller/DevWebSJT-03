@@ -1,0 +1,17 @@
+$mainColor: white;
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #9c9b9ba1;
+    h4 {
+        color: $mainColor;
+    }
+    p {
+        color: $mainColor;
+        margin: 0 auto;
+    }
+    a {
+        text-decoration: none;
+        color: $mainColor;
+    }
+}
