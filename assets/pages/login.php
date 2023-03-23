@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <footer>
-        <p>
-            Site réalisé par <a href="https://floriancharpentier.fr" target="_blank" title="">Florian CHARPENTIER</a> - Tous droits réservés
-        </p>
-    </footer>
+    
 </body>
 </html>

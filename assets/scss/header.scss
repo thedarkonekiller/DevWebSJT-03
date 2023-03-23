@@ -11,13 +11,22 @@ header {
     background: transparent;
     display: flex;
     flex-direction: column;
-    h1 {
+    div {
+        display: flex;
+        h1 {
         color: $mainColor;
         margin: 0 auto;
         font-family: $fontHeader;
         font-size: 4rem;
         position: relative;
         z-index: 100;
+        }
+        a {
+            text-decoration: none;
+            color: $mainColor;
+            font-family: $fontHeader;
+            padding: 1rem 2rem;
+        }
     }
     ul {
         display: flex;

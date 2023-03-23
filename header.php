@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,11 @@
 </head>
 <body>
     <header>
-        <h1 class="rgb">TP Développeur Web - Promo 03</h1>
+        <div>
+            <h1 class="rgb">TP Développeur Web - Promo 03</h1>
+            <span><a href="#" title="">Se Connecter</a></span>
+            <span><a href="#" title="">S'Enregistrer</a></span>
+        </div>
         <nav>
             <ul>
                 <li><a href="#" title="" class="neon">Accueil</a></li>

@@ -7,13 +7,22 @@ header {
   display: flex;
   flex-direction: column;
 }
-header h1 {
+header div {
+  display: flex;
+}
+header div h1 {
   color: white;
   margin: 0 auto;
   font-family: "Grandstander-VariableFont_wght", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 4rem;
   position: relative;
   z-index: 100;
+}
+header div a {
+  text-decoration: none;
+  color: white;
+  font-family: "Grandstander-VariableFont_wght", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem 2rem;
 }
 header ul {
   display: flex;
