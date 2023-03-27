@@ -1,0 +1,24 @@
+form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+form fieldset label {
+  color: white;
+  margin-top: 0.5rem;
+}
+form fieldset input {
+  max-width: 150px;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+form fieldset input[type=submit] {
+  max-width: 100px;
+  border-radius: 0.25rem;
+}
+
+/*# sourceMappingURL=login.css.map */

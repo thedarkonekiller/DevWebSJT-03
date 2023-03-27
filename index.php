@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>'
-    <?php require('./header.php') ?>
-    <?php require('./footer.php') ?>
+    <?php require('./assets/pages/header.php') ?>
 
+
+    
+    <?php require('./assets/pages/footer.php') ?>
 </body>
 </html>

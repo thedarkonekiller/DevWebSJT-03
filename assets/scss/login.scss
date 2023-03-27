@@ -1,0 +1,28 @@
+$mainTextColor: white;
+$background: black;
+
+form {
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 180px;
+        width: 100%;
+        background: $background;
+        color: $mainTextColor;
+        label {
+            color: $mainTextColor;
+            margin-top: .5rem;
+        }
+        input {
+            max-width: 150px;
+            width: 100%;
+            margin-top: .5rem;
+        }
+        input[type=submit] {
+            max-width: 100px;
+            border-radius: .25rem;
+
+        }
+    }
+}
